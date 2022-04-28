@@ -36,7 +36,7 @@ def euclidianDistance(real, calculated):
     calculated = np.array(calculated)
     return np.linalg.norm(real-calculated)
 
-def linearCombination(cdnt, dk): 
+def linearCombination(cdnt, dk):
     A = np.empty((0, 2))
     B = np.empty((0, 2))
 
